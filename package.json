@@ -1,0 +1,16 @@
+{
+  "name": "git-technetium",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "async": "*",
+    "bower": "*",
+    "express": "*",
+    "gulp": "*",
+    "gulp-jshint": "*",
+    "jshint-stylish": "*",
+    "nodemon": "*",
+    "request": "*"
+  }
+}
