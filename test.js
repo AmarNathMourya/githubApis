@@ -21,11 +21,7 @@ module.exports = function(router, request, async, config) {
                         }
                     }
 
-                    if(body.length < 30) {
-                        res.send(issueData);
-                    } else {
-                        getData(pageCounter + 1);
-                    }
+                    
                 }
             });
         };
