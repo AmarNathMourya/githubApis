@@ -12,7 +12,7 @@ module.exports = function(router, request, async, config) {
                     for(var issueIndex = 0; issueIndex < body.length; issueIndex++ ) {
                         if( !body[issueIndex].pull_request) {
                             issueData.push({
-                                number: body[issueIndex].number,
+                            
                                 title: body[issueIndex].title,
                                 state: body[issueIndex].state,
                                 creator: body[issueIndex].user.login,
